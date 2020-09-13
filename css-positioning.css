@@ -1,0 +1,48 @@
+
+/* for changing the background to grid */
+html {
+    background: transparent url('background-grid.png') left top repeat scroll;
+}
+/* changing the style of the division mentioned in the html page for example .one is the class value */
+.one{
+border: 16px solid blue;
+height: 100px;
+border-radius: 10px;
+border-width: 1px 2px 3px 4px;
+box-shadow: 10px 5px 5px black; /* offsex-x, offset-y, blur-radius, color */
+
+}
+/* visibility hidden will hide the division but keep the position */
+.two{
+    border: 8px solid blue;
+    height: 100px;
+    color: red;
+visibility: hidden;
+    
+}
+/* display none remove the div and not going to keep the position */
+    
+.three{
+        border: 8px solid blue;
+        height: 100px;
+        color: red;
+       
+        }
+
+        * { box-sizing: border-box; }
+        selector {
+            width: 50%;
+            height: 300px;
+          }
+
+
+          .blue, .pink, .orange {  position: absolute;
+        }
+        .blue {  
+            background-color: blue;
+            z-index: 2;}
+        .orange {  z-index: 3;
+            background-color: orange;}
+        .green {  z-index: 100; 
+        background-color: green ;
+        }
